@@ -1,11 +1,10 @@
-/* ヘッダー */
 header{
   height: 100px;
   width: 100%;
   border-bottom: 2px solid navy;
   position: fixed;
   top: 0;
-  z-index: 10; 
+  z-index: 10;
   background-color: #FFFFFF;
   opacity: 0.8;
 }
@@ -22,24 +21,28 @@ header{
   margin-left: 20px;
 }
 
-.header-right {
-  float: right;
-  margin-right: 25px;
+.header-right{
+  height: 100px;
+  float: right
 }
 
-.header-right a {
+.header-right li{
+  display: inline-block;
+  margin-left: 20px;  
+}
+
+.header-right a{
+  color: #FFFFFF;
   text-decoration: none;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
   background-color: #000080;
-  padding: 30px;
-  margin: 5px 30px 0;
+  padding: 15px;
+  border-radius: 10px;
+  display: inline-block;
+  margin-top:10px;
   width: 150px;
   text-align: center;
-  border-radius: 10px;  
 }
+
 /* ヘッダーここまで */
 
 
