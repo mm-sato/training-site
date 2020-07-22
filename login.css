@@ -65,7 +65,7 @@ input {
     box-sizing: border-box; /*横幅の解釈をpadding, borderまでとする*/
 }
 
-.submit{
+input.submit{
   background-color: navy;
   color: #FFFFFF;
   width: 200;
