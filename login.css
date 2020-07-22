@@ -40,10 +40,12 @@ header{
   text-align: center;
   border-radius: 10px;  
 }
+/* ヘッダーここまで */
+
 
 .contents{
   text-align: center;
-  margin-top: 70;
+  margin-top: 150;
 }
 
 .contents h2{
